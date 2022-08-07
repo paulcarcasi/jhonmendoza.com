@@ -543,18 +543,6 @@
               </div>
             </div>
             <!-- Botão 2 -->
-            <div id="cta2" class="mt-4 d-none">
-              <a
-                href="https://pay.hotmart.com/H68864624C?checkoutMode=10&src=npag1&hideBillet=1"
-                class="a-btn"
-                style="text-decoration: none"
-              >
-                <span class="span-btn"
-                  >¡SÍ! QUIERO ACCEDER Y BAJAR MUCHO PESO</span
-                >
-                <span class="span-btn2">(atención: Cupos limitados)</span>
-              </a>
-            </div>
           </div>
         </div>
       </div>
@@ -566,6 +554,12 @@
         <a href="/politicy.html" class="text-white">Políticas de Privacidad</a>
       </div>
     </footer>
+    <script type="text/javascript">
+      setTimeout(() => {
+        document.getElementById("cta1").classList.remove("d-none");
+        document.getElementById("cta2").classList.remove("d-none");
+      }, 1000); // 0 segundos
+    </script>
     <script src="../assets/js/com.js"></script>
 
     <style>
