@@ -78,7 +78,7 @@ function onContinueBtn() {
   fillQuizQuestions();
 }
 function onFinishResults() {
-  window.location.href = "https://jhonmendoza.com/resultado";
+  window.location.href = "https://jhonmendoza.com/resumen";
 }
 function onBackBtn() {
   stepQuiz -= 1;
